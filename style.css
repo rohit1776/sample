@@ -1,0 +1,89 @@
+body{
+    background-color: white;
+}
+
+nav{
+    font-size: medium;
+    
+    box-shadow: 78px rgb(241, 13, 13);
+
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 70px;
+    background-color: white;
+    color: black;
+}
+
+nav ul li{
+    padding:  0 12px;
+    margin: 20px;
+    font-weight: bold;
+    font-size: large;
+    
+}
+.icon nav ul li{
+    margin: 3px;
+}
+.Brand img{
+    width: 100px;
+    padding: 0  20px;
+}
+
+.Brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 3.3rem;
+}
+#Home{
+     text-align: center;
+}
+.btn{
+    color: white;
+    background-color: green;
+    border-radius: 2px;
+    text-align: center;
+    cursor: pointer;
+    width: 7%;
+    height: 10%;
+
+}
+
+.btn:hover{
+    display: block;
+    color: azure;
+    display: inline;}
+
+#scooter{
+    display: flex;
+    margin-top: 20px;
+}
+
+#column{
+    display: flex;
+    justify-content: space-around;
+    height: 30%;
+
+}
+#Electric{
+    
+    text-align: center;
+}
+
+h.promary{
+    text-align: center;
+    font-weight: bolder;
+}
+h.promary{
+    display: flex;
+}
+
+footer{
+    background-color:black;
+    color: white;
+    padding: 9px 20px;
+    text-align: center;
+}
